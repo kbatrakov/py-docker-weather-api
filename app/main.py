@@ -10,6 +10,7 @@ if not API_KEY:
 CITY = "Paris"
 URL = "http://api.weatherapi.com/v1/current.json"
 
+
 def get_weather() -> None:
 
     params = {
